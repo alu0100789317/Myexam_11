@@ -1,0 +1,20 @@
+class Answer
+  attr_accessor :____, :_____, :______
+
+  def initialize(order, kind, answer)
+    @kind, @order, @answer = kind, order, answer
+  end
+
+  def to_s
+    "#{@order} -  #{answer}"
+  end
+
+  def is_right?
+    ____________________
+  end
+
+  def ___(other)
+    __________________________
+  end
+
+end
